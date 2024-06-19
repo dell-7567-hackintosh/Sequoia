@@ -976,7 +976,7 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmCfgLock</key>
 			<true/>
 			<key>AppleXcpmExtraMsrs</key>
@@ -1029,7 +1029,7 @@
 			<key>FuzzyMatch</key>
 			<false/>
 			<key>KernelArch</key>
-			<string>x86_64</string>
+			<string>Auto</string>
 			<key>KernelCache</key>
 			<string>Auto</string>
 		</dict>
@@ -1049,7 +1049,7 @@
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>LauncherOption</key>
-			<string>Full</string>
+			<string>Disabled</string>
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
@@ -1067,14 +1067,14 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>30</integer>
+			<integer>999</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
-			<true/>
+			<false/>
 			<key>DisableWatchDog</key>
 			<true/>
 			<key>DisplayDelay</key>
@@ -1375,7 +1375,7 @@
 			<key>MinimumAudibleGain</key>
 			<integer>-55</integer>
 			<key>PlayChime</key>
-			<string>Auto</string>
+			<string>false</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
