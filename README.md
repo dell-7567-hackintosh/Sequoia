@@ -1,4 +1,4 @@
-# Hackintosh OpenCore for Dell Inspiron 15 7567 — macOS Sequoia (Sonomoa)
+# Hackintosh OpenCore for Dell Inspiron 15 7567 — macOS Sequoia
 
 <p align="center">
   <img src="https://dortania.github.io/OpenCore-Install-Guide/homepage.png" alt="OpenCore Logo" width="100" />
@@ -17,11 +17,6 @@ This repository provides a streamlined OpenCore EFI configuration to install **m
 - **Target Model:** Dell Inspiron 15 7567 Gaming
 - **SMBIOS (System ID):** MacBookPro15,1
 - **macOS Version:** Sequoia (macOS 15)
-- **Mac Recovery Script:** `macrecovery.py`
-
-  ```bash
-  py macrecovery.py -b Mac-937A206F2EE63C01 -m 00000000000000000 download
-  ```
 
 ---
 
