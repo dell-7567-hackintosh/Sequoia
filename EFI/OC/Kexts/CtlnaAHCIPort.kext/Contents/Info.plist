@@ -46,6 +46,28 @@
 	<string>11O62d</string>
 	<key>IOKitPersonalities</key>
 	<dict>
+		<key>AMD-FCH-AHCI</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.CtlnaAHCIPort</string>
+			<key>Chipset Name</key>
+			<string>FCH SATA Controller [AHCI]</string>
+			<key>IOClass</key>
+			<string>CtlnaIntelPchSeriesAHCI</string>
+			<key>IONameMatch</key>
+			<array>
+				<string>pci1022,7801</string>
+				<string>pci1022,7804</string>
+				<string>pci1022,7901</string>
+				<string>pci1022,7904</string>
+			</array>
+			<key>IOProbeScore</key>
+			<integer>2000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Vendor Name</key>
+			<string>AMD</string>
+		</dict>
 		<key>Intel10SeriesAHCI</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
