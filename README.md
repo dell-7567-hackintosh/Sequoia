@@ -22,7 +22,7 @@ This repository provides a streamlined OpenCore EFI configuration to install **m
 
 ## Prerequisites
 
-1. A working macOS machine or VM to prepare the USB installer.
+1. A working machine to prepare the USB installer.
 2. A USB flash drive (≤32 GB) formatted as **FAT32**.
 3. Latest OpenCore release from [Acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg/releases).
 
@@ -39,7 +39,7 @@ This repository provides a streamlined OpenCore EFI configuration to install **m
 2. **Copy Recovery Boot:**
    - From the download folder, copy `com.apple.recovery.boot` to the root of your USB drive.
 3. **Add OpenCore EFI:**
-   - Copy your `EFI` folder into the USB root.
+   - Copy `EFI` folder into the USB root.
 4. **Validate Structure:**
    Your USB should look like:
 
