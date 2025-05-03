@@ -80,7 +80,7 @@ This repository provides a streamlined OpenCore EFI configuration to install **m
 
 ## Post‑Installation
 
-1. **Mount System EFI:** Use `Clover Configurator` or `mountEFI.sh`.
+1. **Mount System EFI:** Use [MountEFI](https://github.com/corpnewt/MountEFI).
 2. **Copy EFI:** Copy the `EFI` folder from USB to your macOS system partition EFI.
 3. **Eject USB & Reboot:** You should now boot natively.
 
@@ -100,7 +100,6 @@ This repository provides a streamlined OpenCore EFI configuration to install **m
 
 - **OpCore‑Simplify** — lzhoang2801
 - **Dortania OpenCore Guides** — dortania.io
-- **Hackintosh Dell Inspiron 7567 EFI** — seathasky, mishailovic, maxis7567, charliekempf
 
 ---
 
